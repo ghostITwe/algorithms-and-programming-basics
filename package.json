@@ -1,0 +1,23 @@
+{
+  "name": "algorithms-and-programming-basics",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.35.3",
+    "astro": "^5.6.1",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
